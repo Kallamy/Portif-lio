@@ -4,7 +4,7 @@ require 'environment.php';
 $config = array();
 
 if(ENVIRONMENT == 'development') {
-    define("BASE_URL", "http://localhost/crud_mvc/");
+    define("BASE_URL", "http://localhost/clubedoslivros/");
     $config['dbname'] = "clubedoslivros";
     $config['host'] = "localhost";
     $config['dbuser'] = "root";
